@@ -14,14 +14,7 @@ const CommentDetail = (props) => {
                     <span className="date">{props.postTime}</span>
                 </div>
                 <div className="text">{props.commentText}</div>
-            </div>
-            <button className="ui primary button">
-                Approve
-            </button>
-            <button className="ui button">
-                Reject
-            </button>
-            
+            </div>         
         </div>
     );
 };
